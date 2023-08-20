@@ -1,13 +1,13 @@
 import { load } from './initialPageLoad';
-import { menuFunc } from './menu';
 import{ homeFunc } from './home';
+import { menuFunc } from './menu';
 import { contactFunc } from './contact';
+import { removerFunc } from './remover';
 
 
 const elements = load();
 
-load();
 
-elements.homeButton.addEventListener('click', homeFunc);
+elements.homeButton.addEventListener('click', load);
 elements.menuButton.addEventListener('click', menuFunc);
 elements.contactButton.addEventListener('click', contactFunc);

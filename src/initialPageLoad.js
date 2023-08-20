@@ -40,13 +40,18 @@ content.appendChild(location);
 
 
 return{
+    hoursPara,
+    presentationPara,
+    locationPara,
     homeButton,
     menuButton,
     contactButton,
+    presentation,
+    hours,
+    location,
 }
 
 }
-
 export{
     load,
 }

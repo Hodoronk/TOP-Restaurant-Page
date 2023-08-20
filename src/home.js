@@ -1,5 +1,9 @@
+import { load } from "./initialPageLoad";
+
+
 const homeFunc = () => {
-    console.log('HomeFunc works');
+    load();
+    
 }
 
 export{

@@ -1,5 +1,8 @@
+import { load } from "./initialPageLoad";
+import { removerFunc } from "./remover";
+
 const menuFunc = () => {
-    console.log('MenuFunc works');
+    removerFunc();
 }
 
 
