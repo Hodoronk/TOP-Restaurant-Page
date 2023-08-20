@@ -41,7 +41,10 @@ content.appendChild(location);
 
 return{
     homeButton,
+    menuButton,
+    contactButton,
 }
+
 }
 
 export{
