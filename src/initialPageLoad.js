@@ -3,6 +3,13 @@ const content = document.querySelector('#content');
 const homeButton = document.createElement('button');
 const menuButton = document.createElement('button');
 const contactButton = document.createElement('button');
+const restaurantTitle = document.createElement('h1');
+restaurantTitle.textContent = 'Flubben Flieben Foode';
+
+homeButton.classList.add('stable');
+menuButton.classList.add('stable');
+contactButton.classList.add('stable');
+restaurantTitle.classList.add('stable');
 
 const presentation = document.createElement('div');
 const presentationPara = document.createElement('p');
@@ -24,8 +31,6 @@ homeButton.textContent = 'Home';
 menuButton.textContent = 'Menu';
 contactButton.textContent = 'Contact';
 
-const restaurantTitle = document.createElement('h1');
-restaurantTitle.textContent = 'Flubben Flieben Foode';
 
 
 
