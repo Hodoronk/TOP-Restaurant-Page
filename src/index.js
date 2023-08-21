@@ -11,3 +11,4 @@ const elements = load();
 elements.homeButton.addEventListener('click', load);
 elements.menuButton.addEventListener('click', menuFunc);
 elements.contactButton.addEventListener('click', contactFunc);
+console.log('fatcock fatcooock');
