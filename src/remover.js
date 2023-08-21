@@ -3,22 +3,14 @@ const elements = load();
 
 
 const removerFunc = () => {
-    elements.presentationPara.remove();
-    elements.locationPara.remove();
-    elements.hoursPara.remove();
-    elements.hours.remove();
-    elements.location.remove();
-    elements.presentation.remove();
-}
-
-const personalRemover = (...args) => {
-    for (const arg of args){
-        arg.remove();
+    const parent = document.querySelector('#content');
+    for(let child of parent.children){
+        if(!child.classList.contains('stable')){
+            child.remove();
+        }
     }
 }
 
-
 export{
     removerFunc,
-    personalRemover,
 }
